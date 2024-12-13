@@ -1,0 +1,32 @@
+{
+	"/(main-ideas)": [
+		"src/routes/(main-ideas)/+layout.server.js"
+	],
+	"/": [
+		"src/routes/+page.server.js"
+	],
+	"/(main-ideas)/ideas": [
+		"src/routes/(main-ideas)/ideas/+page.server.js",
+		"src/routes/(main-ideas)/+layout.server.js"
+	],
+	"/(main-ideas)/ideas/new": [
+		"src/routes/(main-ideas)/ideas/new/+page.server.js",
+		"src/routes/(main-ideas)/+layout.server.js"
+	],
+	"/(main-ideas)/ideas/[id]": [
+		"src/routes/(main-ideas)/ideas/[id]/+page.server.js",
+		"src/routes/(main-ideas)/+layout.server.js"
+	],
+	"/(main-ideas)/login": [
+		"src/routes/(main-ideas)/login/+page.server.js",
+		"src/routes/(main-ideas)/+layout.server.js"
+	],
+	"/(main-ideas)/logout": [
+		"src/routes/(main-ideas)/logout/+page.server.js",
+		"src/routes/(main-ideas)/+layout.server.js"
+	],
+	"/(main-ideas)/signup": [
+		"src/routes/(main-ideas)/signup/+page.server.js",
+		"src/routes/(main-ideas)/+layout.server.js"
+	]
+}
